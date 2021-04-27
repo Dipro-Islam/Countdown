@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/bg.jpg");
+    font-family: 'New Tegomin', serif;
+    font-size: 3rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 4rem;
+    margin-top: 37rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown-container{
+    display: flex;
+    margin-top: -8rem;
+    margin-left: 1rem;
+}
+
+.big-text{
+    font-size: 5rem;
+}
+
+.days-c{
+    padding: 2rem;
+    line-height: 1;
+    text-align: center;
+    margin-top: 0 2rem;
+   
+}
+.span{
+    font-weight: bold;
+}
+

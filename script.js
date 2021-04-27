@@ -1,0 +1,33 @@
+
+
+const ramadanDate = '2 april 2022';
+
+
+function countDown() {
+    const ramadan = new Date(ramadanDate);
+    const currentDate = new Date();
+
+    const diff = (ramadan - currentDate) / 1000;
+
+    var days = Math.floor(diff / 3600 / 24);
+    var hour = Math.floor(diff / 3600) % 24;
+    var min = Math.floor(diff / 60) % 60;
+    var sec = Math.floor(diff % 60);
+
+
+
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hour;
+    document.getElementById("mins").innerHTML = min;
+    document.getElementById("sec").innerHTML = sec;
+}
+
+
+
+
+
+
+
+
+
+setInterval(countDown, 1000);
