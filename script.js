@@ -8,7 +8,8 @@ function countDown() {
     const currentDate = new Date();
 
     // we get the answer in milisec , so devide by 1000 to get the sec
-    const difference = (ramadanDate - currentDate) / 1000;
+
+    const difference = (ramadan - currentDate) / 1000;
 
     var days = Math.floor(difference / 3600 / 24);
     var hour = Math.floor(difference / 3600) % 24;
